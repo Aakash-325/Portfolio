@@ -1,0 +1,110 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #191919;
+  }
+
+  /* #3e497a; */
+
+  .MuiSvgIcon-root{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+    
+  .homeTxt{ 
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #191919;
+    color: #f0f0f0;
+  }
+  
+  .homeTxt h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #f0f0f0;
+    height: 50px;
+  }
+  
+  .homeTxt .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+  .About {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-txt {
+    padding: 0 7rem;
+    font-size: 20px;
+  }
+
+  .item p {
+    font-family: Abel,sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .About h1 {
+    color: #191919;
+  }
+  
+  .About .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .about h2, .homeTxt h2 {
+      font-size: 40px;
+    }
+
+    .About h1 {
+      font-size: 48px;
+    }
+
+    .About .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .About {
+      text-align: center;
+    }
+    
+    .about-txt {
+      padding: 0 3rem;
+      font-size: 16px;
+    }
+
+    .list {
+      padding: 0;
+    }
+  
+    .About h2 {
+      font-size: 30px;
+    }
+  }
